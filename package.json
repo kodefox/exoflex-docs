@@ -6,18 +6,22 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.48",
     "@docusaurus/preset-classic": "^2.0.0-alpha.48",
     "@docusaurus/theme-live-codeblock": "^2.0.0-alpha.39",
     "classnames": "^2.2.6",
+    "core-js": "3",
     "exoflex": "^3.3.0",
+    "patch-package": "^6.2.1",
+    "postinstall-postinstall": "^2.1.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-native": "0.60.6",
-    "react-native-web": "^0.12.2"
+    "react-native-svg": "^12.0.3",
+    "react-native-web": "^0.11.0"
   },
   "browserslist": {
     "production": [
@@ -31,5 +35,15 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-flow": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@expo/webpack-config": "^0.11.14",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0"
+  }
 }

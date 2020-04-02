@@ -88,5 +88,8 @@ module.exports = {
     ],
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
-  plugins: [require.resolve('./src/plugins/react-native-web')],
+  plugins: [
+    require.resolve('./src/plugins/react-native-web'),
+    require.resolve('./src/plugins/exoflex'),
+  ],
 };
