@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-native-web/dist/index.js b/node_modules/react-native-web/dist/index.js
+index e31af10..4c630ba 100644
+--- a/node_modules/react-native-web/dist/index.js
++++ b/node_modules/react-native-web/dist/index.js
+@@ -109,4 +109,7 @@ ActivityIndicator, Button, CheckBox, FlatList, Image, ImageBackground, KeyboardA
+ ColorPropType, EdgeInsetsPropType, PointPropType, // compat (components)
+ DatePickerIOS, DrawerLayoutAndroid, ImageEditor, ImageStore, InputAccessoryView, MaskedViewIOS, NavigatorIOS, PickerIOS, ProgressBarAndroid, ProgressViewIOS, SegmentedControlIOS, SnapshotViewIOS, TabBarIOS, ToastAndroid, ToolbarAndroid, ViewPagerAndroid, WebView, // compat (apis)
+ ActionSheetIOS, AlertIOS, CameraRoll, DatePickerAndroid, ImagePickerIOS, PermissionsAndroid, PushNotificationIOS, Settings, StatusBarIOS, Systrace, TimePickerAndroid, TVEventHandler, VibrationIOS, // plugins
+-DeviceEventEmitter };
+\ No newline at end of file
++  DeviceEventEmitter
++};
++let requireNativeComponent = () => { }
++export {requireNativeComponent}

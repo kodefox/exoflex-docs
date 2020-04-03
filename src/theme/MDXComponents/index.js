@@ -6,21 +6,23 @@
  */
 
 import React from 'react';
-import { View, Text } from 'react-native';
+import {View} from 'react-native';
 import Link from '@docusaurus/Link';
 import CodeBlock from '@theme/CodeBlock';
 import Heading from '@theme/Heading';
+import * as Exoflex from 'exoflex';
 
 import styles from './styles.module.css';
 
-const RNComponents = {View, Text};
+const RNComponents = {View};
 
 export default {
   code: (props) => {
-    const { children } = props;
+    const {children} = props;
     const scope = {
       ...React,
       ...RNComponents,
+      ...Exoflex,
     };
     if (typeof children === 'string') {
       return <CodeBlock {...props} scope={scope} />;

@@ -1,9 +1,8 @@
 module.exports = function() {
   return {
-    name: 'custom-docusaurus-plugin',
-    configureWebpack(config) {
+    name: 'react-native-web',
+    configureWebpack() {
       return {
-        ...config,
         resolve: {
           alias: {
             'react-native$': 'react-native-web',

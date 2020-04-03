@@ -79,10 +79,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-          remarkPlugins: [
-            require('./src/plugins/remark-npm2yarn'),
-            require('./src/plugins/react-native-web'),
-          ],
+          remarkPlugins: [require('./src/plugins/remark-npm2yarn')],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -91,4 +88,8 @@ module.exports = {
     ],
   ],
   themes: ['@docusaurus/theme-live-codeblock'],
+  plugins: [
+    require.resolve('./src/plugins/react-native-web'),
+    require.resolve('./src/plugins/exoflex'),
+  ],
 };
