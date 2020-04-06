@@ -23,6 +23,11 @@ module.exports = {
         items: ['drawerSection', 'drawerItem'],
       },
       'iconButton',
+      {
+        type: 'category',
+        label: 'Menu',
+        items: ['menu', 'menuItem'],
+      },
     ],
   },
 };
