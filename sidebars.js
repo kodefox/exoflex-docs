@@ -22,6 +22,7 @@ module.exports = {
         label: 'Drawer',
         items: ['drawerSection', 'drawerItem'],
       },
+      'iconButton',
     ],
   },
 };
