@@ -13,6 +13,7 @@ module.exports = {
       'button',
       'calendar',
       'checkbox',
+      'chip',
     ],
   },
 };
