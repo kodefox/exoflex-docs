@@ -87,5 +87,4 @@ Additional style passed to the icon.
 
 Type: `StyleProp<TextStyle>`  
 Additional style passed to the text inside the chip.
-### Example
 
