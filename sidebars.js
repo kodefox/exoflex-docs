@@ -14,6 +14,15 @@ module.exports = {
       'calendar',
       'checkbox',
       'chip',
+      'collapsible',
+      'dateTimePicker',
+      'divider',
+      {
+        type: 'category',
+        label: 'Drawer',
+        items: ['drawerSection', 'drawerItem'],
+      },
+      'iconButton',
     ],
   },
 };
