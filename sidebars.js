@@ -15,6 +15,7 @@ module.exports = {
       'checkbox',
       'chip',
       'collapsible',
+      'dateTimePicker',
     ],
   },
 };
