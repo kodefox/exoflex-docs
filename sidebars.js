@@ -9,7 +9,8 @@ module.exports = {
         label: 'Avatar',
         items: ['avatarIcon', 'avatarImage', 'avatarText']
       },
-      'badge'
+      'badge',
+      'button',
     ],
   },
 };
