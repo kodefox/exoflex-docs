@@ -12,6 +12,7 @@ module.exports = {
       'badge',
       'button',
       'calendar',
+      'checkbox',
     ],
   },
 };
