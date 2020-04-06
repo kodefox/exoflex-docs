@@ -17,6 +17,11 @@ module.exports = {
       'collapsible',
       'dateTimePicker',
       'divider',
+      {
+        type: 'category',
+        label: 'Drawer',
+        items: ['drawerSection', 'drawerItem'],
+      },
     ],
   },
 };
