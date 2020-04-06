@@ -14,6 +14,7 @@ module.exports = {
       'calendar',
       'checkbox',
       'chip',
+      'collapsible',
     ],
   },
 };
