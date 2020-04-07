@@ -35,6 +35,11 @@ module.exports = {
       },
       'progressBar',
       'provider',
+      {
+        type: 'category',
+        label: 'RadioButton',
+        items: ['radio', 'radioGroup'],
+      },
     ],
   },
 };
