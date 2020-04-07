@@ -3,8 +3,6 @@ id: timePicker
 title: Time Picker
 ---
 
-Activity indicator is used to present progress of some activity in the app.
-
 ## Usage
 
 ```tsx live
