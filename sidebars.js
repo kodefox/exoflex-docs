@@ -34,6 +34,7 @@ module.exports = {
         items: ['portal', 'portalHost'],
       },
       'progressBar',
+      'provider',
     ],
   },
 };
