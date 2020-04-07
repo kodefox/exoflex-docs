@@ -23,6 +23,24 @@ module.exports = {
         items: ['drawerSection', 'drawerItem'],
       },
       'iconButton',
+      {
+        type: 'category',
+        label: 'Menu',
+        items: ['menu', 'menuItem'],
+      },
+      {
+        type: 'category',
+        label: 'Portal',
+        items: ['portal', 'portalHost'],
+      },
+      'progressBar',
+      'provider',
+      {
+        type: 'category',
+        label: 'RadioButton',
+        items: ['radio', 'radioGroup'],
+      },
+      'segmentedControl',
     ],
   },
 };
