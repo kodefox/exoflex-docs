@@ -41,6 +41,7 @@ module.exports = {
         items: ['radio', 'radioGroup'],
       },
       'segmentedControl',
+      'slider',
     ],
   },
 };
