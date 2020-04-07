@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import {View, Animated} from 'react-native';
+import {View, Animated, Image} from 'react-native';
 import Link from '@docusaurus/Link';
 import CodeBlock from '@theme/CodeBlock';
 import Heading from '@theme/Heading';
@@ -14,7 +14,7 @@ import * as Exoflex from 'exoflex';
 
 import styles from './styles.module.css';
 
-const RNComponents = {View, Animated};
+const RNComponents = {View, Animated, Image};
 
 const COLLAPSED_SPOILER = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet ultricies erat, ut imperdiet orci. Vivamus accumsan elit orci, et facilisis ante molestie a. Pellentesque ut turpis lectus. Vestibulum metus elit, ultricies eu tellus a, imperdiet mollis ante. Integer pharetra odio eu ex malesuada dapibus. Nulla risus felis, imperdiet vitae vestibulum sed, feugiat sit amet risus. Vivamus quis auctor mauris. Nunc in auctor augue. Praesent maximus libero ac metus hendrerit tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras sit amet pharetra metus. In lacinia nibh nunc, finibus ornare arcu accumsan tincidunt. Fusce quis varius magna. Ut malesuada nulla erat, eget vestibulum mi fermentum a. Nam mi urna, vestibulum sit amet pellentesque non, iaculis nec orci.';
 
