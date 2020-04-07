@@ -30,7 +30,7 @@ function TimePickerExample() {
 
 ## Props
 
-### date(required)
+### date (required)
 
 Type: `boolean`  
 Current date and time in ISO string format.
