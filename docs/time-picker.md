@@ -14,7 +14,9 @@ function TimePickerExample() {
     <Provider>
       <TimePicker
         title="Start time"
-        placeholder="timeeee?"
+        placeholder="Time"
+        format="24"
+        locale="en_US"
         style={{ fontSize: 10 }}
         date={selectedDate.toISOString()}
         onChangeTime={(date) => {
