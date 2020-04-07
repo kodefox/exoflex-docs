@@ -33,6 +33,7 @@ module.exports = {
         label: 'Portal',
         items: ['portal', 'portalHost'],
       },
+      'progressBar',
     ],
   },
 };
