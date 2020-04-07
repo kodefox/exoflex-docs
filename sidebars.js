@@ -40,6 +40,7 @@ module.exports = {
         label: 'RadioButton',
         items: ['radio', 'radioGroup'],
       },
+      'segmentedControl',
     ],
   },
 };
