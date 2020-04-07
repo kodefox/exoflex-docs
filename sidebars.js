@@ -17,6 +17,8 @@ module.exports = {
         label: 'Card',
         items: ['card', 'cardActions', 'cardContent', 'cardCover', 'cardTitle'],
       },
+      'badge',
+      'button',
       'checkbox',
       'chip',
       'collapsible',
@@ -55,6 +57,7 @@ module.exports = {
       'slider',
       'switch',
       'textInput',
+      'timePicker',
     ],
   },
 };
