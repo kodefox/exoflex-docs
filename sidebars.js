@@ -2,12 +2,12 @@ module.exports = {
   someSidebar: {
     'Getting Started': ['installation', 'theming', 'contributing'],
     Components: [
-      'accordion', 
+      'accordion',
       'activityIndicator',
       {
         type: 'category',
         label: 'Avatar',
-        items: ['avatarIcon', 'avatarImage', 'avatarText']
+        items: ['avatarIcon', 'avatarImage', 'avatarText'],
       },
       'badge',
       'button',
@@ -47,6 +47,7 @@ module.exports = {
       },
       'segmentedControl',
       'slider',
+      'switch',
       'textInput',
     ],
   },
