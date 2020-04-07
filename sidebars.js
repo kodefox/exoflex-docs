@@ -28,6 +28,11 @@ module.exports = {
         label: 'Menu',
         items: ['menu', 'menuItem'],
       },
+      {
+        type: 'category',
+        label: 'Portal',
+        items: ['portal', 'portalHost'],
+      },
     ],
   },
 };
