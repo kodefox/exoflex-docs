@@ -1,6 +1,6 @@
 ---
 id: segmentedControl 
-title: Segmented.Control 
+title: SegmentedControl 
 ---
 
 ## Usage 

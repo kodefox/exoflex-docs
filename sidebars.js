@@ -40,7 +40,14 @@ module.exports = {
         label: 'RadioButton',
         items: ['radio', 'radioGroup'],
       },
+      {
+        type: 'category',
+        label: 'RichRadio',
+        items: ['richRadioGroup', 'richRadioItem'],
+      },
       'segmentedControl',
+      'slider',
+      'textInput',
     ],
   },
 };

@@ -60,7 +60,7 @@ function BasicChip() {
 
 ## Props
 
-This component also inherit props from [TouchableOpacityProps](https://facebook.github.io/react-native/docs/touchableopacity#props).
+> This component also inherit props from [TouchableOpacityProps](https://facebook.github.io/react-native/docs/touchableopacity#props).
 
 ### children
 
