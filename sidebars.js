@@ -12,6 +12,17 @@ module.exports = {
       'badge',
       'button',
       'calendar',
+      {
+        type: 'category',
+        label: 'Card',
+        items: [
+          'card',
+          'cardActions',
+          'cardContent',
+          'cardCover',
+          'cardTitle',
+        ],
+      },
       'checkbox',
       'chip',
       'collapsible',
