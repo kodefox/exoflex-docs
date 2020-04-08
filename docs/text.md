@@ -7,6 +7,8 @@ Text with preconfigured font family when used inside the `Provider`.
 
 For using custom font families, please refer to [theming](theming) docs.
 
+## Usage
+
 ```tsx live
 function Basic() {
   return (
