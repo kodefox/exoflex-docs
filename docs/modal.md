@@ -7,8 +7,6 @@ The Modal component is a simple way to present content above an enclosing view. 
 
 ## Usage
 
-### Basic
-
 ```tsx live
 function Basic() {
   let [visible, setVisible] = useState(false);
