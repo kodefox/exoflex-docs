@@ -58,7 +58,11 @@ module.exports = {
       'switch',
       'textInput',
       'timePicker',
-      'toast',
+      {
+        type: 'category',
+        label: 'Toast',
+        items: ['toastControlled', 'toastUncontrolled'],
+      },
       'typography',
     ],
   },
