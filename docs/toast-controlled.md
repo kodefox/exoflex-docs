@@ -1,6 +1,6 @@
 ---
 id: toastControlled
-title: Toast.Controlled
+title: Controlled
 ---
 
 Toast is an alert like component that shows from the bottom of the screen

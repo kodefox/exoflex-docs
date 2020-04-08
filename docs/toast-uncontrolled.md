@@ -1,6 +1,6 @@
 ---
 id: toastUncontrolled
-title: Toast.Uncontrolled
+title: Uncontrolled
 ---
 
 ## Static (Uncontrolled Toast)
