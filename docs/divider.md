@@ -1,9 +1,9 @@
 ---
-id: divider 
-title: Divider 
+id: divider
+title: Divider
 ---
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -19,10 +19,7 @@ function Basic() {
         <Text style={textStyles}>Item 1</Text>
         <Divider />
         <Text style={textStyles}>Item 2</Text>
-        <Divider 
-          inset={20} 
-          style={{ backgroundColor: 'tomato', height: 2 }}
-        />
+        <Divider inset={20} style={{ backgroundColor: 'tomato', height: 2 }} />
         <Text style={textStyles}>Item 3</Text>
       </View>
     </Provider>
@@ -34,9 +31,9 @@ function Basic() {
 
 ```tsx live
 function Basic() {
-  let wrapperStyle = { 
-    flexDirection: 'row', 
-    justifyContent: 'space-evenly' 
+  let wrapperStyle = {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
   };
   let textStyles = {
     marginVertical: 10,
@@ -76,4 +73,3 @@ Left inset for the horizontal divider.
 
 Type: `StyleProp<ViewStyle>`  
 Additional style passed to the divider. To change the color of the divider, you can pass backgroundColor property.
-

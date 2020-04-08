@@ -1,23 +1,23 @@
 ---
-id: avatarImage 
-title: Avatar.Image 
+id: avatarImage
+title: Avatar.Image
 ---
 
 Avatars can be used to represent people in a graphical way.
 
-## Usage 
+## Usage
 
 ```tsx live
 function AvatarImageExample() {
   const avatarImage = {
-    uri: 'https://raw.githubusercontent.com/kodefox/infra/master/packages/exoflex/example/assets/drawer_header.png'
+    uri:
+      'https://raw.githubusercontent.com/kodefox/infra/master/packages/exoflex/example/assets/drawer_header.png',
   };
 
   let avatarStyles = {
     marginVertical: 24,
     marginHorizontal: 12,
   };
-
 
   return (
     <Provider>
@@ -48,4 +48,3 @@ Size of the avatar.
 
 Type: `StyleProp<ViewStye>`  
 Style for the container.
-

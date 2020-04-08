@@ -1,6 +1,6 @@
 ---
-id: menu 
-title: Menu 
+id: menu
+title: Menu
 ---
 
 Menus display a list of choices on temporary elevated surfaces. Their placement varies based on the element that opens them.
@@ -9,7 +9,7 @@ Menus display a list of choices on temporary elevated surfaces. Their placement 
 If you get a problem with the menu component rendered on a wrong coord on the web, kindly refer to this link https://github.com/kodefox/infra/pull/291#issuecomment-577075898.
 :::
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -19,13 +19,11 @@ function Basic() {
 
   return (
     <Provider>
-      <View style={{ flex: 1, alignItems: 'center', }}>
+      <View style={{ flex: 1, alignItems: 'center' }}>
         <Menu
           visible={visible}
           onDismiss={() => setVisible(false)}
-          anchor={
-            <Button onPress={() => setVisible(true)}>Show menu</Button>
-          }
+          anchor={<Button onPress={() => setVisible(true)}>Show menu</Button>}
         >
           <Menu.Item title="Cut" onPress={() => {}} />
           <Menu.Item title="Copy" onPress={() => {}} />
@@ -47,7 +45,7 @@ function CustomPosition() {
 
   return (
     <Provider>
-      <View style={{ flex: 1, alignItems: 'center', }}>
+      <View style={{ flex: 1, alignItems: 'center' }}>
         <Button
           onPress={(event) => {
             setMenuCoord({
@@ -112,5 +110,3 @@ Style of menu's inner content.
 
 Type: `StyleProp<ViewStyle>`  
 Style of menu's container.
-
-

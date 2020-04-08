@@ -15,13 +15,7 @@ module.exports = {
       {
         type: 'category',
         label: 'Card',
-        items: [
-          'card',
-          'cardActions',
-          'cardContent',
-          'cardCover',
-          'cardTitle',
-        ],
+        items: ['card', 'cardActions', 'cardContent', 'cardCover', 'cardTitle'],
       },
       'checkbox',
       'chip',

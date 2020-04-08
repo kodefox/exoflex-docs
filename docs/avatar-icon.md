@@ -1,11 +1,11 @@
 ---
-id: avatarIcon 
-title: Avatar.Icon 
+id: avatarIcon
+title: Avatar.Icon
 ---
 
 Avatars can be used to represent people in a graphical way.
 
-## Usage 
+## Usage
 
 ```tsx live
 function AvatarIconExample() {
@@ -49,4 +49,3 @@ Custom color for the icon.
 
 Type: `StyleProp<ViewStye>`  
 Style for the container.
-

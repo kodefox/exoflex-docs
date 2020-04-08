@@ -1,9 +1,9 @@
 ---
-id: badge 
-title: Badge 
+id: badge
+title: Badge
 ---
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -41,9 +41,7 @@ function BadgeCustom() {
         999+
       </Badge>
       <Spacing />
-      <Button onPress={() => setVisibility(!visible)}>
-        Toggle Visibility
-      </Button>
+      <Button onPress={() => setVisibility(!visible)}>Toggle Visibility</Button>
     </Provider>
   );
 }
@@ -77,4 +75,3 @@ Name of font preset that will be used on `Text` component inside the `Badge`.
 
 Type: `StyleProp<TextStyle>`  
 Additional style passed to the text inside the Badge.
-

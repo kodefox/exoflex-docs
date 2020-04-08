@@ -1,6 +1,6 @@
 ---
-id: drawerItem 
-title: Drawer.Item 
+id: drawerItem
+title: Drawer.Item
 ---
 
 A component used to show an action item with an icon and a label in a navigation drawer.
@@ -21,7 +21,7 @@ function Basic() {
 }
 ```
 
-### Highlight 
+### Highlight
 
 ```tsx live
 function Basic() {
@@ -29,20 +29,20 @@ function Basic() {
 
   return (
     <Provider>
-      <Drawer.Item 
-        active={active === 'Home'} 
-        label="Home" 
-        onPress={() => setActive('Home')} 
+      <Drawer.Item
+        active={active === 'Home'}
+        label="Home"
+        onPress={() => setActive('Home')}
       />
-      <Drawer.Item 
-        active={active === 'Profile'} 
-        label="Profile" 
-        onPress={() => setActive('Profile')} 
+      <Drawer.Item
+        active={active === 'Profile'}
+        label="Profile"
+        onPress={() => setActive('Profile')}
       />
-      <Drawer.Item 
-        active={active === 'Setting'} 
-        label="Setting" 
-        onPress={() => setActive('Setting')} 
+      <Drawer.Item
+        active={active === 'Setting'}
+        label="Setting"
+        onPress={() => setActive('Setting')}
       />
     </Provider>
   );
@@ -95,4 +95,3 @@ Style of the container.
 
 Type: `StyleProp<TextStyle>`  
 Style of the label text.
-

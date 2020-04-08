@@ -1,7 +1,7 @@
 ---
-id: installation 
-title: Installation 
-sidebar_label: Installation 
+id: installation
+title: Installation
+sidebar_label: Installation
 ---
 
 ## Pre-requisites
@@ -32,4 +32,3 @@ npm install exoflex
 For bare React Native project, you also need to install `react-native-vector-icons`. For `react-native<0.60.0`, you need to link the library first.
 
 If you are using TypeScript, naviflex is built using TypeScript and we shipped it along with the `.d.ts` file, so you do not have to install `@types/exoflex`.
-

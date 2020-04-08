@@ -1,11 +1,11 @@
 ---
-id: radio 
-title: Radio 
+id: radio
+title: Radio
 ---
 
 A radio button with text. Radio buttons allow the selection a single option from a set.
 
-## Usage 
+## Usage
 
 ```tsx live
 function RadioExample() {
@@ -89,4 +89,3 @@ Additional style for the radio button container.
 
 Type: `StyleProp<TextStyle>`  
 Additional style for the text.
-

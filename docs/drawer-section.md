@@ -1,11 +1,11 @@
 ---
-id: drawerSection 
-title: Drawer.Section 
+id: drawerSection
+title: Drawer.Section
 ---
 
 A component to group content inside a navigation drawer.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -14,30 +14,28 @@ function Basic() {
   let [active, setActive] = useState('Home');
 
   return (
-    <Drawer.Section
-      headerSource={{ uri: 'https://picsum.photos/300' }}
-    >
-      <Drawer.Item 
-        active={active === 'Home'} 
-        label="Home" 
-        onPress={() => setActive('Home')} 
+    <Drawer.Section headerSource={{ uri: 'https://picsum.photos/300' }}>
+      <Drawer.Item
+        active={active === 'Home'}
+        label="Home"
+        onPress={() => setActive('Home')}
       />
-      <Drawer.Item 
-        active={active === 'Profile'} 
-        label="Profile" 
-        onPress={() => setActive('Profile')} 
+      <Drawer.Item
+        active={active === 'Profile'}
+        label="Profile"
+        onPress={() => setActive('Profile')}
       />
-      <Drawer.Item 
-        active={active === 'Setting'} 
-        label="Setting" 
-        onPress={() => setActive('Setting')} 
+      <Drawer.Item
+        active={active === 'Setting'}
+        label="Setting"
+        onPress={() => setActive('Setting')}
       />
     </Drawer.Section>
   );
 }
 ```
 
-### Circle Header 
+### Circle Header
 
 ```tsx live
 function Basic() {
@@ -48,20 +46,20 @@ function Basic() {
       headerMode="circle"
       headerSource={{ uri: 'https://picsum.photos/300' }}
     >
-      <Drawer.Item 
-        active={active === 'Home'} 
-        label="Home" 
-        onPress={() => setActive('Home')} 
+      <Drawer.Item
+        active={active === 'Home'}
+        label="Home"
+        onPress={() => setActive('Home')}
       />
-      <Drawer.Item 
-        active={active === 'Profile'} 
-        label="Profile" 
-        onPress={() => setActive('Profile')} 
+      <Drawer.Item
+        active={active === 'Profile'}
+        label="Profile"
+        onPress={() => setActive('Profile')}
       />
-      <Drawer.Item 
-        active={active === 'Setting'} 
-        label="Setting" 
-        onPress={() => setActive('Setting')} 
+      <Drawer.Item
+        active={active === 'Setting'}
+        label="Setting"
+        onPress={() => setActive('Setting')}
       />
     </Drawer.Section>
   );
@@ -81,20 +79,20 @@ function Basic() {
         footerLabel="Sign out"
         footerOnPress={() => {}}
       >
-        <Drawer.Item 
-          active={active === 'Home'} 
-          label="Home" 
-          onPress={() => setActive('Home')} 
+        <Drawer.Item
+          active={active === 'Home'}
+          label="Home"
+          onPress={() => setActive('Home')}
         />
-        <Drawer.Item 
-          active={active === 'Profile'} 
-          label="Profile" 
-          onPress={() => setActive('Profile')} 
+        <Drawer.Item
+          active={active === 'Profile'}
+          label="Profile"
+          onPress={() => setActive('Profile')}
         />
-        <Drawer.Item 
-          active={active === 'Setting'} 
-          label="Setting" 
-          onPress={() => setActive('Setting')} 
+        <Drawer.Item
+          active={active === 'Setting'}
+          label="Setting"
+          onPress={() => setActive('Setting')}
         />
       </Drawer.Section>
     </View>
@@ -134,4 +132,3 @@ Icon to display for the footer item. Only `MaterialCommunityIcons` is available.
 
 Type: `() => void`  
 Function to execute footer item on press.
-

@@ -1,13 +1,13 @@
 ---
-id: dateTimePicker 
-title: DateTimePicker 
+id: dateTimePicker
+title: DateTimePicker
 ---
 
-:::important Important 
+:::important Important
 This documentation is still under **Work in Progress**.
 :::
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -16,14 +16,12 @@ function Basic() {
   let [isDatePickerVisible, setDatePickerVisible] = useState(false);
   let [date, setDate] = useState('');
 
-  let textDate = date === '' ? 
-    'Open DatePicker' : new Date(date).toLocaleString('id-ID');
+  let textDate =
+    date === '' ? 'Open DatePicker' : new Date(date).toLocaleString('id-ID');
 
   return (
     <Provider>
-      <Button onPress={() => setDatePickerVisible(true)}>
-        {textDate}
-      </Button>
+      <Button onPress={() => setDatePickerVisible(true)}>{textDate}</Button>
       <DateTimePicker
         isVisible={isDatePickerVisible}
         date={date}
@@ -69,7 +67,7 @@ Whether to show the time in 24h or 12h format.
 
 ### minimumDate
 
-Type: `Date`   
+Type: `Date`  
 Set the minimum date that can be selected.
 
 ### maximumDate
@@ -82,19 +80,19 @@ Set the maximum date that can be selected.
 Type: `'12'` | `'24'` | `'12'`  
 Format to show the time, between 12 hour and 24 hour.
 
-### placeholder 
+### placeholder
 
 Type: `string`  
 Default: `''`  
 Placeholder to show inside the TextInput. (For iOS and Android only)
 
-### title 
+### title
 
 Type: `string`  
 Default: `''`  
 The title text on iOS and web.
 
-### dateTitleWeb 
+### dateTitleWeb
 
 Type: `string`  
 Default: `''`  
@@ -106,13 +104,13 @@ Type: `string`
 Default: `''`  
 The title text on web for time picker.
 
-### datePickerModeAndroid 
+### datePickerModeAndroid
 
 Type: `'spinner'` | `'calendar'` | `'default'`  
 Default: `'default'`  
 Toggles the date mode on Android between spinner and calendar views. (Android only.)
 
-### timePickerModeAndroid 
+### timePickerModeAndroid
 
 Type: `'spinner'` | `'clock'` | `'default'`  
 Default: `'default'`  
@@ -133,8 +131,7 @@ Callback when the confirm pressed. It returns the selected date in ISO string fo
 Type: `(isoString: string) => void`  
 Callback when a time is picked. It returns an ISO string.
 
-### style 
+### style
 
 Type: `StyleProp<TextStyle>`  
 Style for the TextInput. (For iOS and Android only)
-

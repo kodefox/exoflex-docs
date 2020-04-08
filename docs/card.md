@@ -1,6 +1,6 @@
 ---
-id: card 
-title: Card 
+id: card
+title: Card
 ---
 
 A card is a sheet of material that serves as an entry point to more detailed information.
@@ -70,7 +70,7 @@ function Basic() {
 }
 ```
 
-### Rounded 
+### Rounded
 
 ```tsx live
 function Rounded() {
@@ -147,4 +147,3 @@ Items inside the Card.Content.
 
 Type: `boolean`  
 Whether to make the container become rounded or not. If `true`, it will use `theme.roundness` for the rounded value.
-

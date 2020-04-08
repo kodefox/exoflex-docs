@@ -1,12 +1,12 @@
 ---
-id: slider 
-title: Slider 
+id: slider
+title: Slider
 ---
 
 A component used to select a single/multiple value(s) from a range of values.
 Modified from [@ptomasroos/react-native-multi-slider](https://github.com/ptomasroos/react-native-multi-slider)
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -61,7 +61,7 @@ Enables the first marker.
 ### enabledTwo
 
 Type: `boolean`  
-Default: `true` 
+Default: `true`
 Enables the second marker.
 
 ### allowOverlap
@@ -130,7 +130,7 @@ Suffix added to the value.
 
 ### optionsArray
 
-Type: `Array<number>`   
+Type: `Array<number>`  
 Possible values of the slider. Ignores min and max.
 
 ### touchDimensions
@@ -227,7 +227,6 @@ Style for the marker.
 
 Type: `StyleProp<ViewStyle>`  
 Style for the pressed marker.
-
 
 ```tsx
 <Provider>

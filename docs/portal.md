@@ -1,11 +1,11 @@
 ---
-id: portal 
-title: Portal 
+id: portal
+title: Portal
 ---
 
 Portal allows rendering a component at a different place in the parent tree. You can use it to render content which should appear above other elements, similar to Modal. It requires a Portal.Host component to be rendered somewhere in the parent tree.
 
-## Usage 
+## Usage
 
 ```tsx live
 function PortalExample() {
@@ -33,9 +33,7 @@ function PortalExample() {
         </Portal>
       )}
       <View style={rootStyle}>
-        <Button onPress={() => setShowPortal(true)}>
-          Show Portal
-        </Button>
+        <Button onPress={() => setShowPortal(true)}>Show Portal</Button>
       </View>
     </Provider>
   );
@@ -48,4 +46,3 @@ function PortalExample() {
 
 Type: `React.ReactNode`  
 Content of the Portal.
-
