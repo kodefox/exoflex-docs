@@ -60,7 +60,7 @@ Style passed to the toast container.
 Type: `StyleProp<TextStyle>`  
 Style passed to the toast message.
 
-## Static
+## Methods
 
 For the static method to work the root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
 
