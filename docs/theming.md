@@ -1,6 +1,6 @@
 ---
-id: theming 
-title: Theming 
+id: theming
+title: Theming
 ---
 
 ## Customizing The Theme
@@ -66,9 +66,9 @@ let customTheme = {
     {/* This text will be using the OpenSans font family. */}
     <Text>Foo</Text>
 
-    {/* 
-      But this one will use the default font 
-      because we only override the normal one in the custom theme. 
+    {/*
+      But this one will use the default font
+      because we only override the normal one in the custom theme.
     */}
     <Text weight="medium">Bar</Text>
   </View>
@@ -164,13 +164,13 @@ let customTheme = {
   {/* These two will use different font based on the specified preset and weight. */}
 
   {/* preset "myPreset" -> weight "normal" */}
-  <Text preset="myPreset">Baz</Text> 
+  <Text preset="myPreset">Baz</Text>
   {/* preset "myPreset" -> weight "medium" -> source "FantasqueSansMonoMedium" */}
-  <Text preset="myPreset" weight="medium">Whiz</Text> 
+  <Text preset="myPreset" weight="medium">Whiz</Text>
 
-  {/* 
-    Exoflex component that also display texts will accept "textPreset" prop 
-    which works the same like Text.preset 
+  {/*
+    Exoflex component that also display texts will accept "textPreset" prop
+    which works the same like Text.preset
   */}
   <Button textPrest="myPreset">PRESS ME</Button>
   <Calendar textPrest="myPreset" />
@@ -210,9 +210,9 @@ let customTheme = {
 }
 
 <Provider theme={customTheme}>
-  {/* 
-    Instead of using the source from "myPreset", 
-    this text will use the "italic" preset 
+  {/*
+    Instead of using the source from "myPreset",
+    this text will use the "italic" preset
     (fontStyle "italic" -> weight "normal" -> source "MontserratRegular")
   */}
   <Text preset="myPreset" fontStyle="italic">Baz</Text>

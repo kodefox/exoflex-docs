@@ -20,8 +20,8 @@ function Basic() {
       <View
         style={{
           flex: 1,
-          justifyContent: "center",
-          alignItems: "center"
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
         <Button onPress={toggleModal}>Open Modal</Button>
@@ -31,11 +31,11 @@ function Basic() {
           visible={visible}
           onDismiss={toggleModal}
           contentContainerStyle={{
-            backgroundColor: "white",
-            textAlign: "center",
-            alignSelf: "center",
+            backgroundColor: 'white',
+            textAlign: 'center',
+            alignSelf: 'center',
             height: 150,
-            width: 400
+            width: 400,
           }}
         >
           <Text>Howdy, Modal!</Text>

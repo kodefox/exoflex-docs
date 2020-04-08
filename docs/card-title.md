@@ -1,6 +1,6 @@
 ---
-id: cardTitle 
-title: Card.Title 
+id: cardTitle
+title: Card.Title
 ---
 
 A component to show a title, subtitle and an avatar inside a Card.
@@ -22,7 +22,6 @@ function CardTitleExample() {
 }
 ```
 
-
 ## Props
 
 ### title (required)
@@ -42,11 +41,10 @@ Text for the subtitle.
 
 ### subtitleStyle
 
-Type: `StyleProp<TextStyle>` 
+Type: `StyleProp<TextStyle>`
 Additional style for the subtitle.
 
 ### style
 
 Type: `StyleProp<ViewStyle>`  
 Additional style for the container.
-

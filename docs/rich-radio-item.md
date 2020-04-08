@@ -1,6 +1,6 @@
 ---
-id: richRadioItem 
-title: RichRadio.Item 
+id: richRadioItem
+title: RichRadio.Item
 ---
 
 A controlled rich radio button with text. Similar with radio button but with a richer looks.
@@ -17,14 +17,9 @@ function RichRadioItemExample() {
 
   return (
     <Provider>
-      {
-        DATA.map((item) => (
-          <RichRadio.Item
-            label={item.label}
-            selected={item.value === 'small'}
-          />
-        ))
-      }
+      {DATA.map((item) => (
+        <RichRadio.Item label={item.label} selected={item.value === 'small'} />
+      ))}
     </Provider>
   );
 }
@@ -45,7 +40,7 @@ Custom color for the selected item.
 ### selected
 
 Type: `boolean`  
-Whether to mark the item as selected or not. 
+Whether to mark the item as selected or not.
 
 ### uppercase
 
@@ -81,4 +76,3 @@ Custom style for the first item. This will only work when `firstItem` is set to 
 
 Type: `string`  
 Used to locate this item in end-to-end tests.
-

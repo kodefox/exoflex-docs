@@ -1,6 +1,6 @@
 ---
-id: menuItem 
-title: Menu.Item 
+id: menuItem
+title: Menu.Item
 ---
 
 A component to show a single list item inside a Menu.
@@ -50,4 +50,3 @@ Function to execute on press.
 
 Type: `StyleProp<ViewStyle>`  
 Style of the component.
-

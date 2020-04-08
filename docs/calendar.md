@@ -1,11 +1,11 @@
 ---
-id: calendar 
-title: Calendar 
+id: calendar
+title: Calendar
 ---
 
 A component used to show a calendar to pick a date.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -50,7 +50,7 @@ function MarkedCalendar() {
     let result = date.setDate(date.getDate() + increaseDays);
     return new Date(result).toISOString().split('T')[0];
   };
-  
+
   const MARKED_DATES = {
     [createDate()]: {
       selected: true,
@@ -118,7 +118,7 @@ Month format in calendar title. Formatting values: http://arshaw.com/xdate/#Form
 
 ### markingType
 
-Type: `'custom' | 'simple' | 'multi-dot' | 'multi-period' | 'period'`   
+Type: `'custom' | 'simple' | 'multi-dot' | 'multi-period' | 'period'`  
 Default: `'simple'`  
 Marking style on the date.
 
@@ -141,7 +141,7 @@ Hide month navigation arrows.
 
 ### hideExtraDays
 
-Type: `boolean` 
+Type: `boolean`
 Default: `false`  
 Do not show days of other months in month page.
 
@@ -187,7 +187,7 @@ Replace default arrows with custom ones.
 
 ### style
 
-Type: `StyleProp<ViewStyle>`   
+Type: `StyleProp<ViewStyle>`  
 Calendar container style.
 
 ### onDayPress
@@ -202,7 +202,7 @@ Handler which gets executed on day long press.
 
 ### onMonthChange
 
-Type: `(month: DateObject) => void`   
+Type: `(month: DateObject) => void`  
 Handler which gets executed when visible month changes in calendar.
 
 ### onPressArrowLeft
@@ -321,4 +321,3 @@ export interface PeriodMarking {
   disabled?: boolean;
 }
 ```
-

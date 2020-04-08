@@ -1,6 +1,6 @@
 ---
-id: contributing 
-title: Contributing 
+id: contributing
+title: Contributing
 ---
 
 Exoflex is hosted in our Infra repo and that repo houses several packages, so this guide only covers the general direction.
@@ -18,6 +18,7 @@ For details, please refer to specific package contribution guidelines.
 ## Commit message convention
 
 This repo follows [conventional commits specification](https://www.conventionalcommits.org/en) for the commit message.
+
 - `build`: build related changes, e.g. change tsconfig target.
 - `chore`: non-user facing code and tooling changes, e.g. update dependencies.
 - `ci`: CI related changes, e.g. change circle CI config.

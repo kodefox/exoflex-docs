@@ -1,6 +1,6 @@
 ---
-id: cardCover 
-title: Card.Cover 
+id: cardCover
+title: Card.Cover
 ---
 
 A component to show a cover image inside a Card.
@@ -28,4 +28,3 @@ function CardCoverExample() {
 
 Type: `StyleProp<ViewStyle`  
 Additional style for the container
-

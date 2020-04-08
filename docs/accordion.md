@@ -1,16 +1,17 @@
 ---
-id: accordion 
-title: Accordion 
+id: accordion
+title: Accordion
 ---
 
 A component used to display an/multiple expandable list item.
 
-## Usage 
+## Usage
 
 ```tsx live
 function AccordionExample(props) {
   const drawerImage = {
-    uri: 'https://raw.githubusercontent.com/kodefox/infra/master/packages/exoflex/example/assets/drawer_header.png',
+    uri:
+      'https://raw.githubusercontent.com/kodefox/infra/master/packages/exoflex/example/assets/drawer_header.png',
   };
 
   const SECTIONS = [
@@ -35,7 +36,7 @@ function AccordionExample(props) {
         activeSections={activeSections}
         onChange={(sections) => setActiveSections(sections)}
         titleContainerStyle={{
-          justifyContent: 'center', 
+          justifyContent: 'center',
           alignItems: 'center',
           borderRadius: 4,
         }}
@@ -48,7 +49,7 @@ function AccordionExample(props) {
                 backgroundColor: '#e8ecf3',
                 flexDirection: 'row',
                 alignItems: 'center',
-                borderRadius: 4, 
+                borderRadius: 4,
               }}
             >
               <Image
@@ -93,7 +94,7 @@ function AccordionExample(props) {
 ### sections (required)
 
 Type: `Array<T extends { title: string }>`  
-An array of sections passed to the render methods. In order. 
+An array of sections passed to the render methods. In order.
 
 ### useRipple
 
@@ -106,7 +107,6 @@ Determine whether to use Material Ripple Effect or not.
 Type: `(content: T, index: number, isActive: boolean, sections: Array<T>) => React.ReactNode`  
 Default: `Exoflex custom header`  
 A function that should return a renderable representing the header.
-
 
 ### renderContent (required)
 
@@ -152,7 +152,7 @@ The color of the underlay that will show through when tapping on headers.
 
 ### touchableComponent
 
-Type: `(content: T, index: number, isActive: boolean) => React.ReactNode` 
+Type: `(content: T, index: number, isActive: boolean) => React.ReactNode`
 Default: `TouchableOpacity`  
 The touchable component used in the Accordion.
 
@@ -220,4 +220,3 @@ Optional styling for the Accordion header.
 
 Type: `StyleProp<ViewStyle>`  
 Optional styling for the Header icon.
-

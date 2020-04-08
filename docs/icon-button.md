@@ -1,11 +1,11 @@
 ---
-id: iconButton 
-title: IconButton 
+id: iconButton
+title: IconButton
 ---
 
 An icon button is a button which displays only an icon without a label. By default button has 150% size of the icon.
 
-## Usage 
+## Usage
 
 ```tsx live
 function IconButtonExample() {
@@ -61,4 +61,3 @@ Function to execute on press.
 
 Type: `StyleProp<ViewStyle>`  
 Style for the icon.
-

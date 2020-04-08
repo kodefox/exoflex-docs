@@ -1,11 +1,11 @@
 ---
-id: progressBar 
-title: ProgressBar 
+id: progressBar
+title: ProgressBar
 ---
 
 An indicator used to present progress of some activity in the app.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -73,4 +73,3 @@ Whether the progress bar will show indeterminate progress.
 
 Type: `StyleProp<ViewStyle>`  
 Optional style for the progress bar.
-

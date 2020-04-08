@@ -1,6 +1,6 @@
 ---
-id: provider 
-title: Provider 
+id: provider
+title: Provider
 ---
 
 Provider wraps the root component to provides theming capability to exoflex's components.
@@ -13,10 +13,11 @@ Provider also render `<ToastContainer />` to display a `<Toast />` using `Toast.
 ## Usage
 
 ```tsx
-<Provider theme={{
+<Provider
+  theme={{
     roundness: 7,
     colors: {
-      primary: '#fd8224'
+      primary: '#fd8224',
     },
   }}
 >
@@ -68,4 +69,3 @@ To disable the automatic fonts loading, set to true.
 Type: `ComponentType<{ theme: Theme }>`  
 Default: [LoadingPlaceholder](https://github.com/kodefox/infra/blob/898cb887fdf1db781de52a57ff40aa6564105f2c/packages/exoflex/src/components/LoadingPlaceholder.tsx)  
 Component rendered during loading the custom fonts. Only relevant when `skipFontsLoading` is false.
-

@@ -1,11 +1,11 @@
 ---
-id: activityIndicator 
-title: Activity Indicator 
+id: activityIndicator
+title: Activity Indicator
 ---
 
 Activity indicator is used to present progress of some activity in the app.
 
-## Usage 
+## Usage
 
 ```tsx live
 function ActivityIndicatorExample() {
@@ -48,4 +48,3 @@ Whether the indicator should hide when not animating.
 
 Type: `StyleProp<ViewStyle>`  
 Additional style for the container.
-

@@ -1,9 +1,9 @@
 ---
-id: chip 
-title: Chip 
+id: chip
+title: Chip
 ---
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -11,10 +11,7 @@ title: Chip
 function BasicChip() {
   return (
     <Provider>
-      <Chip 
-        onPress={() => {}} 
-        style={{ alignSelf: 'flex-start' }}
-      >
+      <Chip onPress={() => {}} style={{ alignSelf: 'flex-start' }}>
         Active
       </Chip>
     </Provider>
@@ -22,15 +19,15 @@ function BasicChip() {
 }
 ```
 
-### Inactive 
+### Inactive
 
 ```tsx live
 function BasicChip() {
   return (
     <Provider>
-      <Chip 
+      <Chip
         mode="inactive"
-        onPress={() => {}} 
+        onPress={() => {}}
         style={{ alignSelf: 'flex-start' }}
       >
         Inactive
@@ -40,18 +37,14 @@ function BasicChip() {
 }
 ```
 
-### With Icon 
+### With Icon
 
 ```tsx live
 function BasicChip() {
   return (
     <Provider>
-      <Chip 
-        icon="star"
-        onPress={() => {}} 
-        style={{ alignSelf: 'flex-start' }}
-      >
-        Star 
+      <Chip icon="star" onPress={() => {}} style={{ alignSelf: 'flex-start' }}>
+        Star
       </Chip>
     </Provider>
   );
@@ -87,4 +80,3 @@ Additional style passed to the icon.
 
 Type: `StyleProp<TextStyle>`  
 Additional style passed to the text inside the chip.
-

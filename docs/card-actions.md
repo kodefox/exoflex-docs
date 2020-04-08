@@ -1,6 +1,6 @@
 ---
-id: cardActions 
-title: Card.Actions 
+id: cardActions
+title: Card.Actions
 ---
 
 A component to show a list of actions inside a Card.
@@ -42,4 +42,3 @@ function CardContentExample() {
 
 Type: `React.ReactNode`  
 Items inside the Card.Content.
-

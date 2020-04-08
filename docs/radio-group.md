@@ -1,11 +1,11 @@
 ---
-id: radioGroup 
-title: Radio.Group 
+id: radioGroup
+title: Radio.Group
 ---
 
 Radio button group allows to control a group of radio buttons.
 
-## Usage 
+## Usage
 
 ```tsx live
 function RadioGroupExample() {
@@ -21,16 +21,8 @@ function RadioGroupExample() {
         onValueChange={(newValue) => setRadioButtonValue(newValue)}
       >
         <RadioButton value="male" label="Male" style={verticalStyles} />
-        <RadioButton
-          value="female"
-          label="Female"
-          style={verticalStyles}
-        />
-        <RadioButton
-          value="both"
-          label="Both"
-          style={verticalStyles}
-        />
+        <RadioButton value="female" label="Female" style={verticalStyles} />
+        <RadioButton value="both" label="Both" style={verticalStyles} />
         <RadioButton
           value="none"
           label="Prefer not to say"
@@ -59,4 +51,3 @@ Any react node, preferable `RadioButton` component(s), If no `RadioButton` is fo
 
 Type: `(newValue: string) => void`  
 Callback function to be called when radio button is pressed.
-

@@ -1,11 +1,11 @@
 ---
-id: textInput 
-title: TextInput 
+id: textInput
+title: TextInput
 ---
 
 TextInput is used to allow user input using keyboard.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -23,7 +23,7 @@ function Basic() {
 }
 ```
 
-### Flat 
+### Flat
 
 ```tsx live
 function Flat() {
@@ -40,16 +40,13 @@ function Flat() {
 }
 ```
 
-### Without Label 
+### Without Label
 
 ```tsx live
 function WithoutLabel() {
   return (
     <Provider>
-      <TextInput
-        placeholder="Name"
-        containerStyle={{ marginVertical: 10 }}
-      />
+      <TextInput placeholder="Name" containerStyle={{ marginVertical: 10 }} />
       <TextInput
         mode="flat"
         placeholder="Email"
@@ -60,7 +57,7 @@ function WithoutLabel() {
 }
 ```
 
-### Disabled 
+### Disabled
 
 ```tsx live
 function Disabled() {
@@ -86,7 +83,7 @@ function Disabled() {
 }
 ```
 
-### Error 
+### Error
 
 ```tsx live
 function Error() {
@@ -110,7 +107,7 @@ function Error() {
 }
 ```
 
-### Without Error Icon 
+### Without Error Icon
 
 ```tsx live
 function WithoutErrorIcon() {
@@ -168,7 +165,7 @@ Type: `boolean`
 Default: `false`  
 Determine whether the text content is uppercase or not.
 
-### showErrorIcon 
+### showErrorIcon
 
 Type: `boolean`  
 Default: `true`  
@@ -188,4 +185,3 @@ Additional style passed to the label.
 
 Type: `StyleProp<TextStyle>`  
 Additional style passed to the error message.
-

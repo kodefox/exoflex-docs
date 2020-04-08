@@ -1,6 +1,6 @@
 ---
-id: button 
-title: Button 
+id: button
+title: Button
 ---
 
 Button with three presets. Use within the `Provider` component to be able to change the button color as it depends on the theme.
@@ -98,10 +98,11 @@ Label text of the button
 ### preset
 
 Type: `'primary'` | `'secondary'` | `'invisible'`  
-Default: `'primary'`    
-Mode of the button. You can change the mode to adjust the styling to give it desired emphasis.  
-- `primary` - button with a background color and elevation shadow (high emphasis)  
-- `secondary` - button with an outline (medium emphasis)  
+Default: `'primary'`  
+Mode of the button. You can change the mode to adjust the styling to give it desired emphasis.
+
+- `primary` - button with a background color and elevation shadow (high emphasis)
+- `secondary` - button with an outline (medium emphasis)
 - `invisible` - flat button without background or outline (low emphasis)
 
 ### textPreset
@@ -145,7 +146,6 @@ Make the label text uppercased. Note that this won't work if you pass React elem
 Type: `StyleProp<ViewStyle>`  
 Style of button's inner content.
 
-
 ### style
 
 Type: `StyleProp<ViewStyle>`  
@@ -155,4 +155,3 @@ Style of button's outer content.
 
 Type: `StyleProp<TextStyle>`  
 Style for the button text. This is only work when the children is a string, not a custom component.
-

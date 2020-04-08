@@ -1,11 +1,11 @@
 ---
-id: checkbox 
-title: Checkbox 
+id: checkbox
+title: Checkbox
 ---
 
 A checkbox with text. Checkboxes allow the user to select one or more items from a set.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -44,7 +44,7 @@ function BasicCheckbox() {
 }
 ```
 
-### Disabled 
+### Disabled
 
 ```tsx live
 function DisabledCheckbox() {
@@ -133,4 +133,3 @@ Type: `StyleProp<TextStyle>`
 Additional style for the text.
 
 ### Example
-

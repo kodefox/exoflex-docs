@@ -7,7 +7,9 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.48",
@@ -43,6 +45,17 @@
     "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
     "babel-loader": "^8.1.0",
-    "file-loader": "^6.0.0"
-  }
+    "file-loader": "^6.0.0",
+    "pre-push": "^0.1.1",
+    "prettier": "^2.0.4"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
+  },
+  "pre-push": [
+    "format:check"
+  ]
 }

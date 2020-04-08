@@ -1,9 +1,9 @@
 ---
-id: segmentedControl 
-title: SegmentedControl 
+id: segmentedControl
+title: SegmentedControl
 ---
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -16,9 +16,7 @@ function Basic() {
       <SegmentedControl
         activeIndex={selectedIndex}
         values={['Small', 'Medium', 'Large', 'Extra Large']}
-        onIndexChange={(selectedIndex) =>
-          setSelectedIndex(selectedIndex)
-        }
+        onIndexChange={(selectedIndex) => setSelectedIndex(selectedIndex)}
       />
     </Provider>
   );
@@ -37,16 +35,14 @@ function Border() {
         mode="border"
         activeIndex={selectedIndex}
         values={['Small', 'Medium', 'Large', 'Extra Large']}
-        onIndexChange={(selectedIndex) =>
-          setSelectedIndex(selectedIndex)
-        }
+        onIndexChange={(selectedIndex) => setSelectedIndex(selectedIndex)}
       />
     </Provider>
   );
 }
 ```
 
-### iOS 13 
+### iOS 13
 
 ```tsx live
 function iOS() {
@@ -58,9 +54,7 @@ function iOS() {
         mode="ios-13"
         activeIndex={selectedIndex}
         values={['Small', 'Medium', 'Large', 'Extra Large']}
-        onIndexChange={(selectedIndex) =>
-          setSelectedIndex(selectedIndex)
-        }
+        onIndexChange={(selectedIndex) => setSelectedIndex(selectedIndex)}
       />
     </Provider>
   );
@@ -131,4 +125,3 @@ Style for the segment text.
 
 Type: `StyleProp<ViewStyle>`  
 Style for the outer segmented control.
-

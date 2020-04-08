@@ -1,11 +1,11 @@
 ---
-id: avatarText 
-title: Avatar.Text 
+id: avatarText
+title: Avatar.Text
 ---
 
 Avatars can be used to represent people in a graphical way.
 
-## Usage 
+## Usage
 
 ```tsx live
 function AvatarTextExample() {
@@ -53,4 +53,3 @@ Style for the container.
 
 Type: `StyleProp<TextStyle>`  
 Style for the text in the Avatar.
-

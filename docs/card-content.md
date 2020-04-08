@@ -1,6 +1,6 @@
 ---
-id: cardContent 
-title: Card.Content 
+id: cardContent
+title: Card.Content
 ---
 
 A component to show content inside a Card.
@@ -11,9 +11,7 @@ A component to show content inside a Card.
 function CardContentExample() {
   return (
     <Card.Content>
-      <Text>
-        {COLLAPSED_SPOILER}
-      </Text>
+      <Text>{COLLAPSED_SPOILER}</Text>
     </Card.Content>
   );
 }
@@ -27,4 +25,3 @@ function CardContentExample() {
 
 Type: `React.ReactNode`  
 Items inside the Card.Content.
-

@@ -1,11 +1,11 @@
 ---
-id: collapsible 
-title: Collapsible 
+id: collapsible
+title: Collapsible
 ---
 
 Collapsible with animation.
 
-## Usage 
+## Usage
 
 ### Basic
 
@@ -43,7 +43,9 @@ function LeftIcon() {
     <Provider>
       <Collapsible
         title="More spoiler"
-        renderIconLeft={() => <IconButton icon="warning" style={{ margin: 0 }} />}
+        renderIconLeft={() => (
+          <IconButton icon="warning" style={{ margin: 0 }} />
+        )}
       >
         <Text>{COLLAPSED_SPOILER}</Text>
       </Collapsible>
@@ -53,8 +55,9 @@ function LeftIcon() {
 ```
 
 ### Custom Icon
+
 ```tsx live
-function CustomIcon() { 
+function CustomIcon() {
   return (
     <Provider>
       <Collapsible
@@ -141,4 +144,3 @@ Additional style for the icon.
 Type: `StyleProp<ViewStyle>`  
 Default: `{ borderWidth: 1, width: '100%' }`  
 Additional style for the outer container.
-
