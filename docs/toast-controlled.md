@@ -1,16 +1,14 @@
 ---
 id: toastControlled
-title: Controlled
+title: Controlled Toast
 ---
 
 Toast is an alert like component that shows from the bottom of the screen
 
 ## Usage
 
-### Controlled Toast
-
 ```tsx live
-function TimePickerExample() {
+function ToastExample() {
   let [visible, setVisible] = useState(false);
 
   return (
@@ -42,7 +40,7 @@ Determine the color and icon display.
 ### colors
 
 Type: `Record<mode, string>`  
-Default: `{info: Themes.colors.accent, warning: '#ffce00', error: '#dc544b', success: '#27a163'}`  
+Default: `{ info: Themes.colors.accent, warning: '#ffce00', error: '#dc544b', success: '#27a163' }`  
 Configure the color to use for each mode.
 
 ### visible (required)

@@ -1,21 +1,18 @@
 ---
 id: toastUncontrolled
-title: Uncontrolled
+title: Uncontrolled Toast
 ---
 
-## Static (Uncontrolled Toast)
+## Static
 
 For the static method to work the root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
 
 - `showToast(params)` - show a Toast and then dismiss it after the specified duration has passed
-- `hideToast()` - dismiss the currently visible toast. Does nothing when there's no visible toast.
 
-## Static Usage
-
-### Uncontrolled / Static Toast
+## Usage
 
 ```tsx live
-function TimePickerExample() {
+function ToastExample() {
   return (
     <Provider>
       <Button
@@ -34,7 +31,7 @@ function TimePickerExample() {
 }
 ```
 
-### Params
+## Params
 
 ### message (required)
 
@@ -68,3 +65,5 @@ Style passed to the toast container.
 
 Type: `StyleProp<TextStyle>`  
 Style passed to the toast message.
+
+- `hideToast()` - dismiss the currently visible toast. Does nothing when there's no visible toast.
