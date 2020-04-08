@@ -7,7 +7,7 @@ title: Toast.Uncontrolled
 
 For the static method to work the root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
 
-- `showToast(params)` - show a Toast and the dismiss it after the specified duration has passed
+- `showToast(params)` - show a Toast and then dismiss it after the specified duration has passed
 - `hideToast()` - dismiss the currently visible toast. Does nothing when there's no visible toast.
 
 ## Static Usage
