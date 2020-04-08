@@ -7,7 +7,9 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.48",
@@ -24,11 +26,7 @@
     "react-native-web": "0.11.7"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -43,6 +41,13 @@
     "@babel/preset-react": "^7.9.4",
     "@babel/preset-typescript": "^7.9.0",
     "babel-loader": "^8.1.0",
-    "file-loader": "^6.0.0"
+    "file-loader": "^6.0.0",
+    "prettier": "^2.0.4"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always"
   }
 }
