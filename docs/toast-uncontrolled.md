@@ -66,9 +66,9 @@ For the static method to work the root component must be wrapped by `<Provider /
 
 ### `showToast(params)`
 
-show a Toast and then dismiss it after the specified duration has passed  
-refer to [this section](#params) for the available params in showToast
+Show a Toast and then dismiss it after the specified duration has passed.  
+Refer to [this section](#params) for the available params in showToast.
 
 ### `hideToast()`
 
-dismiss the currently visible toast. Does nothing when there's no visible toast.
+Dismiss the currently visible toast. Does nothing when there's no visible toast.
