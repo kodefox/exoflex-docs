@@ -11,10 +11,10 @@ function TimePickerExample() {
   return (
     <Provider>
       <TimePicker
-        title="Start time"
-        placeholder="Time"
-        format="24"
-        locale="en_US"
+        title='Start time'
+        placeholder='Time'
+        format='24'
+        locale='en_US'
         style={{ fontSize: 10 }}
         date={selectedDate.toISOString()}
         onChangeTime={(date) => {
@@ -37,14 +37,13 @@ Current date and time in ISO string format.
 
 ### format
 
-Type: `'12' | '24'`  
+Type: `'12'` | `'24'`  
 Default: `'12'`  
 Format to show the time, between 12 hour and 24 hour.
 
 ### locale
 
 Type: `'string'`  
-Default: `'en-GB' | 'en-US'`  
 To handle the format based on locale.
 
 ### onChangeTime
