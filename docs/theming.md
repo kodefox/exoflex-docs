@@ -7,7 +7,7 @@ title: Theming
 
 To customize the theme used by exoflex, simply pass a custom theme to the provider:
 
-```tsx
+```tsx {4-7,11}
 import { Provider } from 'exoflex';
 
 let customTheme = {
@@ -39,7 +39,7 @@ How you load the fonts will vary depending on the platform and stack you're usin
 
 When using Expo, you can let exoflex handle the font loading for you.
 
-```tsx
+```tsx {6-17}
 import { Provider } from 'exoflex';
 import OpenSansRegular from './OpenSans-Regular.ttf';
 
@@ -77,7 +77,7 @@ let customTheme = {
 
 You can skip the automatic font loading if you want to handle the font loading manually.
 
-```tsx
+```tsx {1}
 <Provider skipFontLoading={true}>
   <View>
     <Text>Foo</Text>
@@ -98,7 +98,7 @@ Your fonts is stored inside `<ROOT>/assets/fonts/`.
 1. Open up `react-native.config.js`.
 2. Add your fonts dir path to `assets`.
 
-```js
+```js {5}
 // react-native.config.js
 
 module.exports = {
@@ -127,7 +127,7 @@ Each font source will represent a weight.
 
 E.g.:
 
-```tsx
+```tsx {3-14,32,39,45-46}
 let customTheme = {
   fonts: {
     default: {
@@ -181,7 +181,7 @@ let customTheme = {
 
 When `fontStyle` is set to `italic`, the `italic` preset will take precedence over the specified preset.
 
-```tsx
+```tsx {2}
 // The specified preset in the prop will be ignored.
 <Text preset="somePreset" fontStyle="italic">
   Foo
@@ -190,7 +190,7 @@ When `fontStyle` is set to `italic`, the `italic` preset will take precedence ov
 
 To specify a custom font for the italic text, you need to specify it in the `italic` preset inside `theme.fonts`.
 
-```tsx
+```tsx {3-9,25}
 let customTheme = {
   fonts: {
     italic: {
