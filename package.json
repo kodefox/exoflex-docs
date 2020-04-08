@@ -9,10 +9,7 @@
     "deploy": "docusaurus deploy",
     "postinstall": "patch-package",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepush": [
-      "yarn format:check"
-    ]
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.48",
@@ -29,11 +26,7 @@
     "react-native-web": "0.11.7"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -57,5 +50,6 @@
     "singleQuote": true,
     "trailingComma": "all",
     "arrowParens": "always"
-  }
+  },
+  "prepush": ["yarn format:check"]
 }
