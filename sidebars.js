@@ -54,6 +54,7 @@ module.exports = {
       'segmentedControl',
       'slider',
       'switch',
+      'text',
       'textInput',
       'timePicker',
       'typography',
