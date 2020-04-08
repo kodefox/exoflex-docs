@@ -5,21 +5,17 @@ title: Text
 
 Text with preconfigured font family when used inside the `Provider`.
 
-For using custom font families, please refer to [theming](theming.md) docs.
-
-## Usage
-
-### Basic
+For using custom font families, please refer to [theming](theming) docs.
 
 ```tsx live
 function Basic() {
   return (
     <Provider>
       <Text style={{ color: 'green' }}>Hello, I'm Rubik</Text>
-      <Text style={{ color: 'green' }} weight='500'>
+      <Text style={{ color: 'green' }} weight="500">
         My weight is 500.
       </Text>
-      <Text style={{ color: 'green' }} weight='700' fontStyle='italic'>
+      <Text style={{ color: 'green' }} weight="700" fontStyle="italic">
         I'm bold and italic.
       </Text>
     </Provider>
