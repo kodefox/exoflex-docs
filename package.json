@@ -9,7 +9,8 @@
     "deploy": "docusaurus deploy",
     "postinstall": "patch-package",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepush": ["yarn format:check"]
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.48",
@@ -42,6 +43,7 @@
     "@babel/preset-typescript": "^7.9.0",
     "babel-loader": "^8.1.0",
     "file-loader": "^6.0.0",
+    "prepush": "^3.1.11",
     "prettier": "^2.0.4"
   },
   "prettier": {
