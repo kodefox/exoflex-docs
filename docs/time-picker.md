@@ -49,7 +49,7 @@ To handle the format based on locale.
 ### onChangeTime
 
 Type: `(isoString: string) => void`  
-Callback when a time is picked. Can be used to set Time on TimePicker
+Callback when a time is picked. Can be used to set Time on TimePicker.
 
 ### placeholder
 
