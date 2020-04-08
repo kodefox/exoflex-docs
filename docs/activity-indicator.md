@@ -34,7 +34,7 @@ The color of the spinner. Will use the primary color from the theme.
 
 ### size
 
-Type: `'small' | 'large' | number`  
+Type: `'small'` | `'large'` | `number`  
 Default: `'small'`  
 Size of the indicator.
 

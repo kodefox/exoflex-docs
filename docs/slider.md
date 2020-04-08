@@ -227,10 +227,3 @@ Style for the marker.
 
 Type: `StyleProp<ViewStyle>`  
 Style for the pressed marker.
-
-```tsx
-<Provider>
-  <Slider values={[3, 9]} showLabel={false} />
-  <Slider values={[5]} />
-</Provider>
-```

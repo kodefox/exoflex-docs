@@ -3,6 +3,8 @@ id: chip
 title: Chip
 ---
 
+Chips can be used to display entities in small blocks.
+
 ## Usage
 
 ### Basic

@@ -51,7 +51,7 @@ function BadgeCustom() {
 
 ### children
 
-Type: `string | number`  
+Type: `string` | `number`  
 Content of the `Badge`.
 
 ### visible

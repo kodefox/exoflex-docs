@@ -125,12 +125,12 @@ A function that should return a renderable representing the title of the section
 
 ### renderIconLeft
 
-Type: `(animation: Animated.Value) => void | null`  
+Type: `(animation: Animated.Value) => void` | `null`  
 Custom icon to be display on the left of the header.
 
 ### renderIconRight
 
-Type: `(animation: Animated.Value) => void | null`  
+Type: `(animation: Animated.Value) => void` | `null`  
 Default: `Arrow Icon`  
 Custom icon to be display on the right of the header.
 
@@ -152,7 +152,7 @@ The color of the underlay that will show through when tapping on headers.
 
 ### touchableComponent
 
-Type: `(content: T, index: number, isActive: boolean) => React.ReactNode`
+Type: `(content: T, index: number, isActive: boolean) => React.ReactNode`  
 Default: `TouchableOpacity`  
 The touchable component used in the Accordion.
 
@@ -169,7 +169,7 @@ Set whether the user can interact with the Accordion.
 
 ### align
 
-Type: `'top' | 'center' | 'bottom'`  
+Type: `'top'` | `'center'` | `'bottom'`  
 Default: `'top'`  
 Alignment of the content when transitioning.
 
