@@ -58,6 +58,7 @@ module.exports = {
       'switch',
       'textInput',
       'timePicker',
+      'toast',
       'typography',
     ],
   },
