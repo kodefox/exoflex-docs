@@ -3,12 +3,6 @@ id: toastUncontrolled
 title: Uncontrolled Toast
 ---
 
-## Static
-
-For the static method to work the root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
-
-- `showToast(params)` - show a Toast and then dismiss it after the specified duration has passed
-
 ## Usage
 
 ```tsx live
@@ -66,4 +60,15 @@ Style passed to the toast container.
 Type: `StyleProp<TextStyle>`  
 Style passed to the toast message.
 
-- `hideToast()` - dismiss the currently visible toast. Does nothing when there's no visible toast.
+## Static
+
+For the static method to work the root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
+
+### `showToast(params)`
+
+show a Toast and then dismiss it after the specified duration has passed  
+refer to [this section](#params) for the available params in showToast
+
+### `hideToast()`
+
+dismiss the currently visible toast. Does nothing when there's no visible toast.
