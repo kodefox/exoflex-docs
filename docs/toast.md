@@ -3,6 +3,55 @@ id: toast
 title: Toast
 ---
 
+Toast is an alert like component that shows from the bottom of the screen
+
+## Preview
+
+```tsx live
+function TimePickerExample() {
+  let [visible, setVisible] = useState(false);
+
+  return (
+    <Provider>
+      <View style={{ height: 350, justifyContent: 'space-between' }}>
+        <Button
+          onPress={() =>
+            Toast.showToast({
+              message: `I'm uncontrolled!`,
+              duration: 1000,
+              mode: `error`,
+            })
+          }
+        >
+          SHOW UNCONTROLLED ERROR TOAST
+        </Button>
+        <Button
+          onPress={() =>
+            Toast.showToast({
+              message: `Warning! Toast doesn't have icon!`,
+              duration: 500,
+              mode: `warning`,
+              showIcon: false,
+            })
+          }
+        >
+          SHOW UNCONTROLLED WARNING TOAST
+        </Button>
+        <Button
+          onPress={() => setVisible((value) => !value)}
+          preset="secondary"
+        >
+          TOGGLE CONTROLLED TOAST
+        </Button>
+        <Toast visible={visible} mode="success">
+          CONTROLLED TOAST EXAMPLE
+        </Toast>
+      </View>
+    </Provider>
+  );
+}
+```
+
 ## Props
 
 ### children
