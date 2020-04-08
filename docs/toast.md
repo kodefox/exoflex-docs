@@ -18,7 +18,7 @@ function TimePickerExample() {
           onPress={() =>
             Toast.showToast({
               message: `I'm uncontrolled!`,
-              duration: 1000,
+              duration: 750,
               mode: `error`,
             })
           }
@@ -29,7 +29,7 @@ function TimePickerExample() {
           onPress={() =>
             Toast.showToast({
               message: `Warning! Toast doesn't have icon!`,
-              duration: 500,
+              duration: 1000,
               mode: `warning`,
               showIcon: false,
             })
@@ -41,7 +41,7 @@ function TimePickerExample() {
           onPress={() => setVisible((value) => !value)}
           preset="secondary"
         >
-          TOGGLE CONTROLLED TOAST
+          TOGGLE CONTROLLED Info TOAST
         </Button>
         <Toast visible={visible} mode="success">
           CONTROLLED TOAST EXAMPLE
@@ -115,7 +115,7 @@ function TimePickerExample() {
 
 ## Static (Uncontrolled Toast)
 
-For the static method to work root component must be wrapped by <Provider />, since it needs rendered <ToastContainer /> to work properly.
+For the static method to work root component must be wrapped by `<Provider />`, since it needs rendered `<ToastContainer />` to work properly.
 
 - `showToast(params)` - show a Toast and the dismiss it after the specified duration has passed
 - `hideToast()` - dismiss the currently visible toast. Does nothing when there's no visible toast.
