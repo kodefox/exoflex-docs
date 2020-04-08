@@ -57,6 +57,11 @@ module.exports = {
       'text',
       'textInput',
       'timePicker',
+      {
+        type: 'category',
+        label: 'Toast',
+        items: ['toastControlled', 'toastUncontrolled'],
+      },
       'typography',
     ],
   },
