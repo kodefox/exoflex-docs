@@ -5,17 +5,37 @@ title: Time Picker
 
 ## Usage
 
+### Basic
+
 ```tsx live
-function TimePickerExample() {
+function Basic() {
   let [selectedDate, setSelectedDate] = useState(new Date());
+
   return (
     <Provider>
       <TimePicker
-        title="Start time"
-        placeholder="Time"
+        date={selectedDate.toISOString()}
+        onChangeTime={(date) => {
+          let selected = new Date(date);
+          selected = new Date(selected.setSeconds(0));
+          setSelectedDate(selected);
+        }}
+      />
+    </Provider>
+  );
+}
+```
+
+### 24h Format
+
+```tsx live
+function Format24() {
+  let [selectedDate, setSelectedDate] = useState(new Date());
+
+  return (
+    <Provider>
+      <TimePicker
         format="24"
-        locale="en_US"
-        style={{ fontSize: 10 }}
         date={selectedDate.toISOString()}
         onChangeTime={(date) => {
           let selected = new Date(date);
