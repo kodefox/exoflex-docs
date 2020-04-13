@@ -39,6 +39,12 @@ function DocPage(props) {
 
   return (
     <Layout version={version} key={isClient}>
+      <style type="text/css">{`
+        @font-face {
+          font-family: 'MaterialCommunityIcons';
+          src: url(${require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf')}) format('truetype');
+        }
+      `}</style>
       <div className={styles.docPage}>
         {sidebar && (
           <div className={styles.docSidebarContainer}>
