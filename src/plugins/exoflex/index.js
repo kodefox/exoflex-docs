@@ -3,6 +3,9 @@ module.exports = function () {
     name: 'exoflex',
     configureWebpack() {
       return {
+        externals: {
+          'expo-font': 'expo-font',
+        },
         module: {
           rules: [
             {

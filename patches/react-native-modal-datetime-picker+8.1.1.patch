@@ -1,8 +1,13 @@
 diff --git a/node_modules/react-native-modal-datetime-picker/src/DateTimePickerModal.js b/node_modules/react-native-modal-datetime-picker/src/DateTimePickerModal.js
 new file mode 100644
-index 0000000..c727a7c
+index 0000000..23bf8bd
 --- /dev/null
 +++ b/node_modules/react-native-modal-datetime-picker/src/DateTimePickerModal.js
-@@ -0,0 +1,2 @@
+@@ -0,0 +1,7 @@
 +// This is a stub for web platform.
-+export default function () { };
++
++import React from 'react';
++
++export default function () {
++  return React.createElement('div', null, null);
++};
