@@ -10,7 +10,7 @@ Modified from [@ptomasroos/react-native-multi-slider](https://github.com/ptomasr
 
 ### Basic
 
-```tsx live
+```tsx 
 function Basic() {
   return (
     <Provider>
@@ -22,7 +22,7 @@ function Basic() {
 
 ### Range
 
-```tsx live
+```tsx
 function Range() {
   return (
     <Provider>
