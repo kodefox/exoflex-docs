@@ -43,9 +43,7 @@ function LeftIcon() {
     <Provider>
       <Collapsible
         title="More spoiler"
-        renderIconLeft={() => (
-          <IconButton icon="warning" style={{ margin: 0 }} />
-        )}
+        renderIconLeft={() => <IconButton icon="alert" style={{ margin: 0 }} />}
       >
         <Text>{COLLAPSED_SPOILER}</Text>
       </Collapsible>
@@ -75,7 +73,7 @@ function CustomIcon() {
               ],
             }}
           >
-            <IconButton icon="arrow-upward" />
+            <IconButton icon="arrow-up" />
           </Animated.View>
         )}
       >
