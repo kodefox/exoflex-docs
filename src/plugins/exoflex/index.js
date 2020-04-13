@@ -6,6 +6,9 @@ module.exports = function () {
         externals: {
           'expo-font': 'expo-font',
         },
+        resolve: {
+          extensions: ['.web.js', '.js'],
+        },
         module: {
           rules: [
             {
