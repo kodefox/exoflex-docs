@@ -10,7 +10,7 @@ Modified from [@ptomasroos/react-native-multi-slider](https://github.com/ptomasr
 
 ### Basic
 
-```tsx 
+```tsx
 function Basic() {
   return (
     <Provider>
