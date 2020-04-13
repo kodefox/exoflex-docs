@@ -3,7 +3,7 @@ module.exports = {
   tagline:
     'UI component library for React Native and Web (using react-native-web).',
   url: 'https://kodefox.github.io',
-  baseUrl: '/',
+  baseUrl: '/exoflex/',
   favicon: '',
   organizationName: 'kodefox', // Usually your GitHub org/user name.
   projectName: 'exoflex', // Usually your repo name.
