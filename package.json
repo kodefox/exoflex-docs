@@ -8,8 +8,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "postinstall": "patch-package",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format": "prettier --write *.js *.json ./src ./docs",
+    "format:check": "prettier --check *.js *.json ./src ./docs"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.48",
