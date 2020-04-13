@@ -1,0 +1,38 @@
+diff --git a/node_modules/react-native-calendars/src/dateutils.js b/node_modules/react-native-calendars/src/dateutils.js
+index 7c94193..a027dd3 100644
+--- a/node_modules/react-native-calendars/src/dateutils.js
++++ b/node_modules/react-native-calendars/src/dateutils.js
+@@ -80,7 +80,18 @@ function page(xd, firstDayOfWeek) {
+   return before.concat(days.slice(1, days.length - 1), after);
+ }
+ 
+-module.exports = {
++export default {
++  weekDayNames,
++  sameMonth,
++  sameDate,
++  month,
++  page,
++  fromTo,
++  isLTE,
++  isGTE
++};
++
++export {
+   weekDayNames,
+   sameMonth,
+   sameDate,
+diff --git a/node_modules/react-native-calendars/src/interface.js b/node_modules/react-native-calendars/src/interface.js
+index 31cdb7f..197d0f8 100644
+--- a/node_modules/react-native-calendars/src/interface.js
++++ b/node_modules/react-native-calendars/src/interface.js
+@@ -36,8 +36,4 @@ function parseDate(d) {
+   }
+ }
+ 
+-module.exports = {
+-  xdateToData,
+-  parseDate
+-};
+-
++export { xdateToData, parseDate };
