@@ -3,16 +3,14 @@ id: dateTimePicker
 title: DateTimePicker
 ---
 
-:::important Important
-This documentation is still under **Work in Progress**.
-:::
+Modal based Picker for choosing Date and Time.
 
 ## Usage
 
-### Basic
+### Date
 
 ```tsx live
-function Basic() {
+function DateOnly() {
   let [isDatePickerVisible, setDatePickerVisible] = useState(false);
   let [date, setDate] = useState('');
 
@@ -29,6 +27,64 @@ function Basic() {
         onCancel={() => setDatePickerVisible(false)}
         onConfirm={(date) => {
           setDatePickerVisible(false);
+          setDate(date);
+        }}
+      />
+    </Provider>
+  );
+}
+```
+
+### Time
+
+```tsx live
+function TimeOnly() {
+  let [isTimePickerVisible, setTimePickerVisible] = useState(false);
+  let [date, setDate] = useState('');
+
+  let textDate =
+    date === '' ? 'Open TimePicker' : new Date(date).toLocaleString('id-ID');
+
+  return (
+    <Provider>
+      <Button onPress={() => setTimePickerVisible(true)}>{textDate}</Button>
+      <DateTimePicker
+        isVisible={isTimePickerVisible}
+        date={date}
+        mode="time"
+        onCancel={() => setTimePickerVisible(false)}
+        onConfirm={(date) => {
+          setTimePickerVisible(false);
+          setDate(date);
+        }}
+      />
+    </Provider>
+  );
+}
+```
+
+### DateTime
+
+```tsx live
+function DateTime() {
+  let [isDateTimePickerVisible, setDateTimePickerVisible] = useState(false);
+  let [date, setDate] = useState('');
+
+  let textDate =
+    date === ''
+      ? 'Open DateTimePicker'
+      : new Date(date).toLocaleString('id-ID');
+
+  return (
+    <Provider>
+      <Button onPress={() => setDateTimePickerVisible(true)}>{textDate}</Button>
+      <DateTimePicker
+        isVisible={isDateTimePickerVisible}
+        date={date}
+        mode="datetime"
+        onCancel={() => setDateTimePickerVisible(false)}
+        onConfirm={(date) => {
+          setDateTimePickerVisible(false);
           setDate(date);
         }}
       />
