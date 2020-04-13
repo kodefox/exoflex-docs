@@ -2,11 +2,11 @@ module.exports = {
   title: 'Exoflex',
   tagline:
     'UI component library for React Native and Web (using react-native-web).',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://kodefox.github.io',
+  baseUrl: '/exoflex',
   favicon: '',
   organizationName: 'kodefox', // Usually your GitHub org/user name.
-  projectName: 'infra', // Usually your repo name.
+  projectName: 'exoflex-docs', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: false,
     navbar: {
