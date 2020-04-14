@@ -7,6 +7,9 @@ module.exports = function () {
           'expo-font': 'expo-font',
         },
         resolve: {
+          alias: {
+            'react-native-svg': 'react-native-svg-web',
+          },
           extensions: ['.web.js', '.js'],
         },
         module: {
