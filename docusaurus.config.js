@@ -9,6 +9,11 @@ module.exports = {
   projectName: 'exoflex', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: false,
+    algolia: {
+      apiKey: '9040d9cdb343cab500aa63472d0e75b8',
+      indexName: 'exoflex',
+      algoliaOptions: {}, // Optional, if provided by Algolia
+    },
     navbar: {
       title: 'Exoflex',
       logo: {
