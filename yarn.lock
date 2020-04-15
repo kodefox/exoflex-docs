@@ -3740,10 +3740,10 @@ execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-exoflex@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/exoflex/-/exoflex-3.3.0.tgz#09f4c5b850427ae2c8d50d8308fa86b70cecc678"
-  integrity sha512-ACogU7USuv00EEGUfM8Gc3j3ltnE9cUkLjDD8363weXFxqWN6ose0a/31hc6bnWcVASAJx6dZOCcrC6t88l2Ow==
+exoflex@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/exoflex/-/exoflex-3.3.1.tgz#cfb25a042f87c3ee8e2d257de21697d7b8148856"
+  integrity sha512-1y8Hr4jjacWyBU59ZSd7MrjMl0nwqPvpodvAzOLAqwyicl1zpmWdXBMM6fxnUUqQvofDKenzXLJ5nbEOunkelQ==
   dependencies:
     "@react-native-community/datetimepicker" "2.1.0"
     color "^3.1.2"
