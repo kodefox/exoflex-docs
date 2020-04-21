@@ -4,7 +4,7 @@ module.exports = {
     'UI component library for React Native and Web (using react-native-web).',
   url: 'https://kodefox.github.io',
   baseUrl: '/exoflex/',
-  favicon: '',
+  favicon: 'img/favicon.ico',
   organizationName: 'kodefox', // Usually your GitHub org/user name.
   projectName: 'exoflex', // Usually your repo name.
   themeConfig: {
@@ -17,8 +17,8 @@ module.exports = {
     navbar: {
       title: 'Exoflex',
       logo: {
-        alt: '',
-        src: '',
+        alt: 'Logo',
+        src: 'img/logo.svg',
       },
       links: [
         {
