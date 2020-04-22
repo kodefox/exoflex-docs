@@ -25,6 +25,45 @@ let customTheme = {
 </Provider>
 ```
 
+You can customize components' styles through theme:
+
+```tsx {4-23,32}
+import { Provider } from 'exoflex';
+
+let customTheme = {
+  style: {
+    // Here you can customize the styling of each component to suit your need.
+    button: {
+      // Only styles listed in the component props can be defined.
+      contentStyle: {
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        backgroundColor: 'white',
+        borderColor: 'salmon',
+      },
+      labelStyle: {
+        color: 'salmon',
+      },
+    },
+    text: {
+      style: {
+        color: 'salmon',
+      }
+    }
+  }
+}
+
+<Provider theme={customTheme}>
+  <View>
+    {/*
+      If you pass more styles by props, they will be merged with themes,
+      overriding the same properties.
+    */}
+    <Text style={{color: 'coral'}}>Foo</Text>
+  </View>
+</Provider>
+```
+
 ## Custom Fonts
 
 By default, exoflex will use the system fonts, but exoflex is designed with Rubik font family in mind, so exoflex also ship with Rubik fonts.
