@@ -1,0 +1,240 @@
+{
+  "version-3.4/someSidebar": [
+    {
+      "type": "category",
+      "label": "Getting Started",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-3.4/installation"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/theming"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/contributing"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Components",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-3.4/accordion"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/activityIndicator"
+        },
+        {
+          "type": "category",
+          "label": "Avatar",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/avatarIcon"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/avatarImage"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/avatarText"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/badge"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/button"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/calendar"
+        },
+        {
+          "type": "category",
+          "label": "Card",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/card"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/cardActions"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/cardContent"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/cardCover"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/cardTitle"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/checkbox"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/chip"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/collapsible"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/dateTimePicker"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/divider"
+        },
+        {
+          "type": "category",
+          "label": "Drawer",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/drawerSection"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/drawerItem"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/iconButton"
+        },
+        {
+          "type": "category",
+          "label": "Menu",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/menu"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/menuItem"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/modal"
+        },
+        {
+          "type": "category",
+          "label": "Portal",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/portal"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/portalHost"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/progressBar"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/provider"
+        },
+        {
+          "type": "category",
+          "label": "RadioButton",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/radio"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/radioGroup"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "label": "RichRadio",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/richRadioGroup"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/richRadioItem"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/segmentedControl"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/slider"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/switch"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/text"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/textInput"
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/timePicker"
+        },
+        {
+          "type": "category",
+          "label": "Toast",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-3.4/toastControlled"
+            },
+            {
+              "type": "doc",
+              "id": "version-3.4/toastUncontrolled"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-3.4/typography"
+        }
+      ]
+    }
+  ]
+}
