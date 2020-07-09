@@ -3740,22 +3740,20 @@ execa@^3.4.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-exoflex@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/exoflex/-/exoflex-3.3.1.tgz#cfb25a042f87c3ee8e2d257de21697d7b8148856"
-  integrity sha512-1y8Hr4jjacWyBU59ZSd7MrjMl0nwqPvpodvAzOLAqwyicl1zpmWdXBMM6fxnUUqQvofDKenzXLJ5nbEOunkelQ==
+exoflex@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/exoflex/-/exoflex-3.4.1.tgz#2909434170578f7bdc8bb4850680114bf08b37eb"
+  integrity sha512-X6RDCHRJbx619G3B3ZuYCp2zy+KDr3BDxb2L0Kn5M4IQPrzsEqealaRDYQhnIMYqBJ20dm7cAzUIWFrq0gVIUw==
   dependencies:
     "@react-native-community/datetimepicker" "2.1.0"
     color "^3.1.2"
     lodash.mergewith "^4.6.2"
     react-native-animation-hooks "^1.0.1"
-    react-native-calendars "^1.212.0"
+    react-native-calendars "https://github.com/oshimayoan/react-native-calendars/archive/oshimayoan-0.0.3.tar.gz"
     react-native-collapsible "^1.5.1"
     react-native-modal-datetime-picker "8.1.1"
     react-native-multi-slider "npm:@ptomasroos/react-native-multi-slider"
     react-native-paper "^3.4.0"
-  optionalDependencies:
-    patch-package "^6.2.0"
 
 expand-brackets@^2.1.4:
   version "2.1.4"
@@ -6089,6 +6087,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+months@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/months/-/months-2.1.0.tgz#9385ae1968b84313dff223b11080058d1ec326fd"
+  integrity sha512-2M9gdDB/uVt304/hJ3k2UIquJhOV5dRjp9BovHmZSINaRp7pdJuHXxOcuSjmJaKNomFyYyu0y3LBigdWiAUEmQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6666,7 +6669,7 @@ pascalcase@^0.1.1:
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=
 
-patch-package@^6.2.0, patch-package@^6.2.1:
+patch-package@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/patch-package/-/patch-package-6.2.1.tgz#e3c55cf09dffd3984dd300e30d842672b604307f"
   integrity sha512-dfCtQor63PPij6DDYtCzBRoO5nNAcMSg7Cmh+DLhR+s3t0OLQBdvFxJksZHBe1J2MjsSWDjTF4+oQKFbdkssIg==
@@ -7781,13 +7784,13 @@ react-native-animation-hooks@^1.0.1:
   resolved "https://registry.yarnpkg.com/react-native-animation-hooks/-/react-native-animation-hooks-1.0.1.tgz#fcda58867d708084cc63c6fcd001f5375a40f45b"
   integrity sha512-s1o71m9sPpEYwFpHTdBouO50jzvyxIVB4MmNwfVGgPWkdL02zKOzyXcNuPJmoCuLIstUj5TBEwtnGk1WMFJx5A==
 
-react-native-calendars@^1.212.0:
-  version "1.264.0"
-  resolved "https://registry.yarnpkg.com/react-native-calendars/-/react-native-calendars-1.264.0.tgz#552cfff1480ab6c860f54e12ec2b82f9b514aae6"
-  integrity sha512-NHNekv1iwHMI+evr8dDLFqCdvnCWGlBxPKO0/bw1+HDy4uukuab//akoOx9/GGl/3+XV6MVTLdda+qjT6pD2Bg==
+"react-native-calendars@https://github.com/oshimayoan/react-native-calendars/archive/oshimayoan-0.0.3.tar.gz":
+  version "0.0.3"
+  resolved "https://github.com/oshimayoan/react-native-calendars/archive/oshimayoan-0.0.3.tar.gz#60bd33bbd3cefa3ff0031e979b98ba766a3ab695"
   dependencies:
     hoist-non-react-statics "^3.3.1"
     lodash "^4.0.0"
+    months "^2.1.0"
     prop-types "^15.5.10"
     xdate "^0.8.0"
 

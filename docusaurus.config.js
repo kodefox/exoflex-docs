@@ -28,6 +28,10 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'versions',
+          label: 'Versions',
+        },
+        {
           href: 'https://github.com/kodefox/infra',
           label: 'GitHub',
           position: 'right',
