@@ -30,6 +30,16 @@ function SwitchExample() {
         width={40}
         disabled={true}
       />
+      <Text>Custom Switch</Text>
+      <Switch
+        value={switchValue}
+        trackStyle={{ height: 30 }}
+        thumbStyle={{ height: 30, width: 30 }}
+        width={300}
+        onValueChange={(newValue) => {
+          setSwitchValue(newValue);
+        }}
+      />
     </View>
   );
 }
