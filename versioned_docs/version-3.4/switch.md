@@ -70,3 +70,7 @@ Additional view style for the switch thumb.
 
 Type: `StyleProp<ViewStyle>`  
 Additional view style for the switch track.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

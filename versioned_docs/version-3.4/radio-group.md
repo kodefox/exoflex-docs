@@ -51,3 +51,7 @@ Any react node, preferable `RadioButton` component(s), If no `RadioButton` is fo
 
 Type: `(newValue: string) => void`  
 Callback function to be called when radio button is pressed.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

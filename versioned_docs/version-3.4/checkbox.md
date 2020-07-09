@@ -132,4 +132,6 @@ Additional style for the checkbox container.
 Type: `StyleProp<TextStyle>`  
 Additional style for the text.
 
-### Example
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

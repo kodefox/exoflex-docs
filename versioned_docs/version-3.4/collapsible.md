@@ -142,3 +142,7 @@ Additional style for the icon.
 Type: `StyleProp<ViewStyle>`  
 Default: `{ borderWidth: 1, width: '100%' }`  
 Additional style for the outer container.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

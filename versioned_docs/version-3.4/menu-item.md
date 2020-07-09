@@ -50,3 +50,7 @@ Function to execute on press.
 
 Type: `StyleProp<ViewStyle>`  
 Style of the component.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

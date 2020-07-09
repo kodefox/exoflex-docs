@@ -89,3 +89,7 @@ Additional style for the radio button container.
 
 Type: `StyleProp<TextStyle>`  
 Additional style for the text.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

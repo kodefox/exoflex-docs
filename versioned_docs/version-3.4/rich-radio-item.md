@@ -72,6 +72,10 @@ Additional style for the text.
 Type: `StyleProp<ViewStyle>`  
 Custom style for the first item. This will only work when `firstItem` is set to `true`.
 
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.
+
 ### testID
 
 Type: `string`  

@@ -146,6 +146,10 @@ Additional style for `ScrollView` under the hood.
 Type: `StyleProp<ViewStyle>`  
 Additional style for the `ScrollView` under the hood.
 
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.
+
 ### testID
 
 Type: `string`  

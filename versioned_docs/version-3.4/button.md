@@ -5,6 +5,24 @@ title: Button
 
 Button with three presets. Use within the `Provider` component to be able to change the button color as it depends on the theme.
 
+:::tip
+You can also change both weight and style of the button's label through the theme.
+```tsx
+let theme: Theme = {
+  style: {
+    button: {
+      labelFontWeight: '400',
+      labelFontStyle: 'italic',
+    }
+  }
+}
+
+<Provider theme={theme}>
+  <App />
+</Provider>
+```
+:::
+
 ## Usage
 
 ### Basic

@@ -132,3 +132,7 @@ Icon to display for the footer item. Only `MaterialCommunityIcons` is available.
 
 Type: `() => void`  
 Function to execute footer item on press.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

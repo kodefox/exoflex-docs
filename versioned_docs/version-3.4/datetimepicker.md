@@ -160,6 +160,18 @@ Type: `string`
 Default: `''`  
 The title text on web for time picker.
 
+### cancelTextWeb
+
+Type: `string`  
+Default: `'CANCEL'`  
+The label for the cancel button on the web.
+
+### confirmTextWeb
+
+Type: `string`  
+Default: `'CONFIRM'`  
+The label for the confirm button on the web.
+
 ### datePickerModeAndroid
 
 Type: `'spinner'` | `'calendar'` | `'default'`  

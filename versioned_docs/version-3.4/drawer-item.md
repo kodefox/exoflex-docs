@@ -95,3 +95,7 @@ Style of the container.
 
 Type: `StyleProp<TextStyle>`  
 Style of the label text.
+
+### accessibility
+
+Supports [accessibility props](https://reactnative.dev/docs/accessibility) from react native.

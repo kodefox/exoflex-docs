@@ -82,3 +82,9 @@ Additional style passed to the icon.
 
 Type: `StyleProp<TextStyle>`  
 Additional style passed to the text inside the chip.
+
+### accessibilityRole
+
+Type: [AccessibilityRole](https://reactnative.dev/docs/accessibility#accessibilityrole)  
+Default: `'button'`  
+Indicates the role of the component to the user of an assistive tehcnology.
